@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family:fontfamily;
+    src: url(../styles/Font/Poppins-Regular.ttffontfamily);
+}
+#student_list{
+    background: white;
+    box-shadow: -.5vw .5vw .5vw rgba(0, 0, 0, 0.293);
+    font-family:fontfamily;
+    margin: 0vw auto;
+    width: 60vw;
+    padding: 1vw;
+}
+.list_tittle{
+    width: 58vw;
+    background: rgba(146, 144, 144, 0.155);
+    box-shadow: -.4vw .4vw .4vw rgba(0, 0, 0, 0.293);
+    padding: 1vw;
+    margin-top: 2vw;
+}
+.list_tittle .box1{
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5vw;
+        
+}
+.list_tittle .box1 h2{
+    color: rgb(73, 71, 71);
+}
+.list_tittle .box2{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+}
+.list_tittle .box2 .add_std, .add_sign{
+    padding: .7vw;
+}
+.add_sign, .add_std{
+    background: #4A90E2;
+    cursor: pointer;
+    border-radius: .5vw;
+    transition: background 0.3s;
+}
+.add_sign:hover, .add_std:hover{
+    background: #357ABD;
+}
+
+/* Table des élèves */
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1vw;
+    width: 59vw;
+}
+
+.filter-input {
+    border: none;
+    outline: none;
+    padding: .8vw;
+    font-size: 1vw;
+    border-radius: .4vw;
+    background: rgba(128, 128, 128, 0.106);
+    width: 31vw;
+}
+
+.filter-btn {
+    background: #4A90E2;
+    border: none;
+    color: white;
+    padding: .8vw .9vw;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.filter-btn:hover {
+    background: #357ABD;
+}
+
+#table_header{
+    width: 58.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:mont ;
+    padding: 1vw .6vw 0vw; 
+}
+.view h6{
+    font-size: 1.2vw;
+}
+.view{
+}
+.viewAll{
+ padding: 0.5vw;
+ border-radius: .6vw;
+ background: rgba(255, 255, 255, 0.422);
+ font-size: 1vw;
+}
+.view:hover, .view h6:hover {
+ color: #0028ae;
+ text-decoration: solid 2px underline #0028ae ;
+}
+.view h6{
+ font-size: 1vw;
+}
+#tableau{
+    
+}
+table {
+    background: white;
+    width: 58vw;
+    border-collapse: collapse;
+    margin-top: 1vw;
+}
+tr{
+    border-bottom: 1px solid #00a5f82b;
+}
+
+th, td {
+    /* border-right: 1vw; */
+    text-align: left;
+    text-transform: capitalize;
+    padding: 1vw;
+    height: 4vw;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.membersPdp{
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 1vw;   
+}
+.membersPdp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.td_Images, .td_Images1, .td_Images2{
+    position: relative;
+}
+#members_number{
+    background: rgba(0, 0, 0, 0.664);
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 1vw;
+    left: 5.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#members_number1{
+    background: rgba(0, 0, 0, 0.664);
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 1vw;
+    left: 5.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: none;
+}
+
+#members_number span{
+color: white;
+}
+.imgPdp{
+    border: solid .1vw grey;
+    object-fit: cover;
+    object-position: center;
+}
+.membersPdp1:hover,.membersPdp2:hover,.membersPdp:hover{
+    transform: scale(1.1);
+} 
+.membersPdp1:hover{
+z-index: 2;
+}
+.membersPdp2:hover{
+    z-index: 3;
+}
+.membersPdp:hover{
+    z-index: 4;
+}
+.membersPdp1{
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 1vw;
+    left: 2.5vw;
+}
+.membersPdp1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.membersPdp2{
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 1vw;
+    left: 4vw;
+}
+.membersPdp2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#input_done[type="checkbox"] {
+    accent-color: #ff6347;
+}
+#input_pending[type="checkbox"] {
+    accent-color: #0028ae;
+}
