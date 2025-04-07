@@ -1,0 +1,77 @@
+@font-face {
+    font-family: mont;
+    src: url(../Font/Montserrat-VariableFont_wght.ttf);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+.ClassSchedule{
+    width: 58vw;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.schedule_header{
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    font-family: mont;
+}
+.classNname{
+   /* background: grey; */
+   font-size: 1vw;
+   width: 10vw;
+   text-align: center;
+
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr{
+    font-size: 1vw;
+}
+
+td {
+    background-color: #fff;
+}
+
+.cours {
+    color: black;
+    font-family: mont;
+    font-size: .8vw;
+}
+/*btn*/
+.update{
+    width: 6vw;
+    padding: .5vw;
+    font-weight: bold;
+}
