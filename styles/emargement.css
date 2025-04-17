@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list_tittle{
+    display: flex;
+    justify-content: space-between;
+}
+.list_tittle .box3{
+    display: flex;
+    align-items: center;
+}
+#other_class{
+    /* background:#4A90E2; */
+    cursor: pointer;
+    border: none;
+    padding: .5vw;
+    border-radius: 1vw;
+    transition: 1s;
+}
+.annee_scolaire{
+    display: flex;
+    align-items: center;
+}
+.span_span{
+    width: 5vw;
+}
+.annee_scolaire h3{
+    margin-left: .5vw;
+    color: #3579bde9;
+}
+.list_tittle .box1 h2{
+    color: #3579bde9 ;
+}
+
+
+/* #other_class:hover{
+    background: #4A90E2;
+} */
+/* button{
+    padding: .5vw 1.5vw;
+    border: none;
+    border-radius: .5vw;
+    transition: 1s;
+}
+.btn_present{
+    background:#4A90E2;
+    color: white;
+}
+.btn_present:hover{
+    cursor: pointer;
+    background: #357ABD;
+
+}
+.btn_Absent{
+    background: #fdbe02;
+    color: white;
+}
+.btn_Absent:hover{
+    cursor: pointer;
+    background: #c49300;
+
+}
+.btn_quit{
+    background: hsl(354, 78%, 53%);
+    color: white;
+}
+.btn_quit:hover{
+    cursor: pointer;
+    background: #821621;
+
+} */
+ .present[type="radio"] {
+  accent-color: #357ABD;
+}
+ .absent[type="radio"] {
+  accent-color: #fdbe02;
+}
+ .quit[type="radio"] {
+  accent-color: #ff2802;
+}
+.label_present{
+    display: none;
+}
+
+.label_absent{
+    display: none;
+}
+.label_quit{
+    display: none;
+}

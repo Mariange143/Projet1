@@ -16,7 +16,7 @@
     padding: 1vw;
 }
 .list_tittle{
-    width: 58vw;
+    width: 61vw;
     background: rgba(146, 144, 144, 0.155);
     box-shadow: -.4vw .4vw .4vw rgba(0, 0, 0, 0.293);
     padding: 1vw;
@@ -87,7 +87,7 @@
 }
 
 #table_header{
-    width: 58.5vw;
+    width: 61.5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,8 +97,8 @@
 .view h6{
     font-size: 1.2vw;
 }
-.view{
-}
+/* .view{
+} */
 .viewAll{
  padding: 0.5vw;
  border-radius: .6vw;
@@ -112,9 +112,9 @@
 .view h6{
  font-size: 1vw;
 }
-#tableau{
+/* #tableau{
     
-}
+} */
 table {
     background: white;
     width: 58vw;

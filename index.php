@@ -1,3 +1,9 @@
+<?php
+    include "functions/function.php";
+    $recup  = recuperation();
+    echo "bonjourrrrr";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
